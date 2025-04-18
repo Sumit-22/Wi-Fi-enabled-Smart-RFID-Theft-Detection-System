@@ -50,24 +50,25 @@ This project is an **RFID-based Theft Detection System** with **motion detection
 - **Wi-Fi credentials** and **Adafruit IO key**
 
 ### Steps to Set Up
-1. **Clone this Repository**:
+**1. Clone this Repository**:
    ```bash
    git clone https://github.com/Sumit-22/rfid-theft-detection-system.git
+   
 
-2. **Install Necessary Libraries**:
+**2. Install Necessary Libraries**:
 
   - `MFRC522`: RFID library for the MFRC522 module
   - `Adafruit_MQTT`: Adafruit MQTT client
   - `Wire`, `LiquidCrystal_I2C`: For LCD display functionality
   - `ESP8266WiFi`: For Wi-Fi functionality
 
-3. **Configure Wi-Fi and Adafruit IO**:
+**3. Configure Wi-Fi and Adafruit IO**:
  - Replace <WIFI_SSID>, <WIFI_PASSWORD>, <USERNAME>, and <KEY> in the code with your actual credentials and Adafruit IO key.
 
-4. **Upload the Code to the ESP8266 via Arduino IDE.**
+**4. Upload the Code to the ESP8266 via Arduino IDE.**
 
-5. **Monitor Serial Output** :
+**5. Monitor Serial Output** :
  - Open the Serial Monitor to check real-time feedback and status messages.
 
-6. **Run the System** :
+**6. Run the System** :
  - Once powered up, the system will connect to Wi-Fi, initialize the RFID reader, and start detecting motion. If an unauthorized RFID tag is scanned, an alert will be sent to Adafruit IO, and the system will display the status on the LCD.
