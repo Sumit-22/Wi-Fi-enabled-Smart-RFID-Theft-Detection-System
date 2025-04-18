@@ -53,7 +53,7 @@ This project is an **RFID-based Theft Detection System** with **motion detection
 **1. Clone this Repository**:
    ```bash
    git clone https://github.com/Sumit-22/rfid-theft-detection-system.git
-   
+   ```
 
 **2. Install Necessary Libraries**:
 
