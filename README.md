@@ -70,3 +70,4 @@ This project is an **RFID-based Theft Detection System** with **motion detection
  - Open the Serial Monitor to check real-time feedback and status messages.
 
 6. **Run the System** :
+ - Once powered up, the system will connect to Wi-Fi, initialize the RFID reader, and start detecting motion. If an unauthorized RFID tag is scanned, an alert will be sent to Adafruit IO, and the system will display the status on the LCD.
